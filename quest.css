@@ -1,0 +1,151 @@
+body
+{
+    background-color: #000000;
+    color: #328cc1;
+}
+a
+{
+    color: #328cc1;
+}
+nav
+{
+    background-color: #1d2731;
+}
+.nav-item > *
+{
+    color: #328cc1 !important;
+}
+#hello-msg
+{
+    color: #ccccdd !important;
+}
+.current
+{
+    color: #00aeff !important;
+}
+.navbar-brand
+{
+    color: #328cc1 !important;
+}
+.jumbotron
+{
+    text-align: center;
+    color: #e5e642;
+	background-image: url("./images/background.jpg");
+    background-size: contain;
+    border-radius: 0 !important;
+    font-family: 'Goldman', cursive;
+}
+#puzzle1-progress
+{
+    margin-bottom: 10px;
+}
+@media (min-width: 767px)
+{
+    .puzzle-progress
+    {
+        display: inline;
+    }
+    #progress
+    {
+        border: 2px solid white;
+        padding: 20px;
+    }
+    #puzzle1-progress
+    {
+        margin-left: 5%;
+    }
+    #puzzle2-progress
+    {
+        margin-left: 5%;
+    }
+}
+.btn-color
+{
+    background-color: #328cc1 !important;
+}
+.btn-color:hover
+{
+    background-color: #1874a9 !important;
+}
+#sliderpuzzle
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tile
+{
+    display: table-cell;
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    background: url("./images/slider.png"); 
+    cursor: pointer;
+}
+#tile15
+{
+    background: white; cursor: default;
+}
+#footer
+{
+    padding-bottom: 15px;
+    width: 100%;
+}
+hr
+{
+    color: white;
+}
+.hide
+{
+	display: none;
+}
+#hint-section .h5
+{
+	cursor: pointer;
+}
+#comment-section .h2
+{
+    padding-top: 15px;
+}
+#riddle
+{
+    background-color: #f7f780 !important;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+}
+@media (min-width: 767px)
+{
+    #riddle
+    {
+        height: 400px;
+        width: 400px;
+        font-size: 24px;
+    }
+}
+#username-hidden
+{
+    display: none !important;
+}
+#puzzle-id-hidden
+{
+    display: none !important;
+}
+#user-id-hidden
+{
+    display: none !important;
+}
+.show-form
+{
+    cursor: pointer;
+}
+.edit-form
+{
+    display: none;
+}
