@@ -1,10 +1,10 @@
 <?php
-    $host = "303.itpwebdev.com";
-    $user = "bglascoc_db_user";
-    $pass = "mydbpassword";
-    $db = "bglascoc_puzzle_db";
-
-    $mysqli = new mysqli($host, $user, $pass, $db);
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $db = "thequest_db";
+    
+    $mysqli = new mysqli($host, $user, $password, $db);
     if($mysqli->errno)
     {
         echo $mysqli->error;

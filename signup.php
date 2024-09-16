@@ -10,10 +10,10 @@
 			}
 			else
 			{
-				$host = "303.itpwebdev.com";
-				$user = "bglascoc_db_user";
-				$password = "mydbpassword";
-				$db = "bglascoc_puzzle_db";
+				$host = "localhost";
+				$user = "root";
+				$password = "";
+				$db = "thequest_db";
 
 				$mysqli = new mysqli($host, $user, $password, $db);
 				if($mysqli->connect_errno)

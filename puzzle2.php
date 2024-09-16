@@ -1,10 +1,10 @@
 <?php
 	session_start();
     
-    $host = "303.itpwebdev.com";
-    $user = "bglascoc_db_user";
-    $password = "mydbpassword";
-    $db = "bglascoc_puzzle_db";
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $db = "thequest_db";
 
     $mysqli = new mysqli($host, $user, $password, $db);
     if($mysqli->connect_errno)
@@ -112,7 +112,7 @@
                                     <label for="edit-<?php echo $row['comment_id'];?>" class="h6">Edit comment:</label>
                                     <input type="text" class="form-control" id="edit-<?php echo $row['comment_id'];?>" value="<?php echo $row['comment'];?>">
                                 </div>
-                                <button type="submit" id="submit-edit-<?php echo $row['comment_id'];?>" class="btn btn-color btn-primary mr-1" onclick="editComment(<?php echo $row['comment_id'];?>);">Edit</button>
+                                <button type="submit" id="submit-edit-<?php echo $row['comment_id'];?>" class="btn btn-color btn-primary mr-1" onclick="editComment(<?php echo $row['comment_id'];?>);">Save</button>
                                 <button type="button" id="delete-comment-<?php echo $row['comment_id'];?>" class="btn btn-danger mr-1" onclick="deleteComment(<?php echo $row['comment_id'];?>);">Delete</button>
                                 <button type="button" id="cancel-form-<?php echo $row['comment_id'];?>" class="btn btn-secondary" onclick="hideForm(<?php echo $row['comment_id'];?>);">Cancel</button>
                             </form>

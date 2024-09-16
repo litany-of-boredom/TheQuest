@@ -4,12 +4,12 @@
     if(empty($_POST['comment']))
         echo "Comment cannot be blank";
 
-    $host = "303.itpwebdev.com";
-    $user = "bglascoc_db_user";
-    $pass = "mydbpassword";
-    $db = "bglascoc_puzzle_db";
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $db = "thequest_db";
 
-    $mysqli = new mysqli($host, $user, $pass, $db);
+    $mysqli = new mysqli($host, $user, $password, $db);
     if($mysqli->errno)
     {
         echo $mysqli->error;
