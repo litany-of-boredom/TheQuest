@@ -6,3 +6,6 @@
 5. In the new database, import the sql dump ```thequest_db.sql```
 6. You should now be able to view the website at ```http://localhost/TheQuest```
 7. Have fun!
+
+# Demo
+[Link to demo](https://drive.google.com/file/d/1zjiTiUSGIcJu-qW-ROVtwkqZhcEnRzqP/view?usp=drive_link)
